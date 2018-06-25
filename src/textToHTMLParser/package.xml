@@ -1,0 +1,15 @@
+<widget id="textToHTMLParser.widget.textToHTMLParser" needsEntityContext="true" xmlns="http://www.mendix.com/widget/1.0/">
+    <name>textToHTMLParser</name>
+    <description>Parse text to HTML</description>
+    <icon/>
+    <properties>
+        <property key="textString" type="attribute" required="true" defaultValue="">
+            <caption>Content attribute</caption>
+            <category>Data source</category>
+            <description>Attribute which will be displayed.</description>
+            <attributeTypes>
+                <attributeType name="String" />
+            </attributeTypes>
+        </property>
+    </properties>
+</widget>
